@@ -1,6 +1,5 @@
 console.log('From one.js');
 
-// Replace with:
 const BrowserWindow = require("@electron/remote").BrowserWindow;
 
 const path = require('path')

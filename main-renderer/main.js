@@ -1,4 +1,4 @@
-console.log('main process workeing')
+console.log('main process working')
 console.log('from main.js');
 
 const electron = require("electron")
