@@ -11,6 +11,10 @@ function createWindow() {
     win = new BrowserWindon({
         width: 1024,
         height: 768,
+        webPreferences: {
+            nodeIntegration: true,
+            contextIsolation: false,
+        }
     });
     
     win.loadURL(path.join(__dirname, 'index.html'));
